@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+  color: #FFE81F;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#start-screen, #game-screen {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #FFE81F;
+}
+
+#game-output {
+  height: 400px;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  border: 1px solid #FFE81F;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input, select, button {
+  background-color: #000;
+  color: #FFE81F;
+  border: 1px solid #FFE81F;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #FFE81F;
+  color: #000;
+}
+
+.player-input {
+  color: #87CEEB;
+  margin: 10px 0;
+}
+
+#game-input {
+  flex-grow: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
